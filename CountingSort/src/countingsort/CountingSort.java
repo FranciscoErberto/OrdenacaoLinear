@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author nieds
+ * @author erberto
  */
 public class CountingSort {
     
