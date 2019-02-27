@@ -5,10 +5,8 @@ Objetivo: * Organizar um vetor utilizando estrutura de dados arvore heap
           * Arvore heap é binaria - organiza de acordo, os filhos de um nó pai 
           * Os filhos precisam ser sempre menores que o nó pai
  */
+
 package heapsort;
-
-import java.time.Clock;
-
 
 public class HeapSort {
 
@@ -68,19 +66,18 @@ public class HeapSort {
     }
     }
     
-  
-    
    }
     public static void main(String[] args) {
         
+         
         int [] vetor = {9, 5, 88, 76, 44, 18, 0, 11, 21};
-        System.out.print("Lista antes: ");
+        System.out.print("Vetor de Entrada: ");
         for (int i:vetor){
            System.out.print(i + " ");
         }
         System.out.println();
         ordenar(vetor);
-        System.out.print("Lista Depois: ");
+        System.out.print("Vetor de Saída: ");
         for (int i:vetor){
            System.out.print(i +" ");
         }
